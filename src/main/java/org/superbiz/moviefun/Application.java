@@ -23,7 +23,7 @@ public class Application {
         return new ServletRegistrationBean(actionServlet, "/moviefun/*");
     }
 
-    @Value("${s3.endpointUrl}") String s3EndpointUrl;
+    @Value("${s3.endpointUrl1}") String s3EndpointUrl;
     @Value("${s3.accessKey}") String s3AccessKey;
     @Value("${s3.secretKey}") String s3SecretKey;
     @Value("${s3.bucketName}") String s3BucketName;
